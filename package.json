@@ -1,0 +1,16 @@
+{
+	"scripts": {
+		"dev": "npx tailwindcss -i ./Project_1/src/input.css -o ./Project_1/src/output.css --watch",
+		"built_b5": "npx tailwindcss -i ./Project_1/buoi5/input.css -o ./Project_1/buoi5/output.css --watch",
+		"built_lab_5": "npx tailwindcss -i ./Project_1/BTVN_Lab_5/style/input.css -o ./Project_1/BTVN_Lab_5/style/output.css --watch",
+		"built_b6": "npx tailwindcss -i ./Project_1/buoi6/input.css -o ./Project_1/buoi6/output.css --watch",
+		"built_baiKtraPhat": "npx tailwindcss -i ./Project_1/BaiKTRA_Phat/styles/input.css -o ./Project_1/BaiKTRA_Phat/styles/output.css --watch",
+		"built_b7": "npx tailwindcss -i ./Project_1/Buoi_7/styles/input.css -o ./Project_1/Buoi_7/styles/output.css --watch"
+	},
+	"devDependencies": {
+		"tailwindcss": "^3.4.1"
+	},
+	"dependencies": {
+		"jquery": "^3.7.1"
+	}
+}

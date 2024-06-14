@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<root>
+   <Bill>
+      <customer-id>123</customer-id>
+      <customer-name>abc</customer-name>
+      <customer-type>vip</customer-type>
+      <create-date>2024-03-12</create-date>
+      <product>
+         <item0>
+            <name>abc</name>
+            <quantity>1</quantity>
+         </item0>
+      </product>
+   </Bill>
+   <Bill>
+      <customer-id>456</customer-id>
+      <customer-name>TruongQuocDat</customer-name>
+      <customer-type>thanthiet</customer-type>
+      <create-date>2024-03-31</create-date>
+      <product>
+         <item0>
+            <name>X&#xE0; ph&#xF2;ng</name>
+            <quantity>4</quantity>
+         </item0>
+         <item1>
+            <name>C&#x1EE5;c t&#x1EA9;y</name>
+            <quantity>10</quantity>
+         </item1>
+      </product>
+   </Bill>
+</root>

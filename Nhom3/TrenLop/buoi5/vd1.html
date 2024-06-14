@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./output.css" />
+	</head>
+	<body>
+		<form
+			class="grid grid-cols-1 gap-3 text-center items-center mb-4"
+			action="vd1.php"
+			method="Post"
+			enctype="multipart/form-data"
+		>
+			<h1 class="text-xl font-bold">
+				THÔNG TIN ĐĂNG KÍ<span class="font-normal text-lg"
+					>(method: Post)</span
+				>
+			</h1>
+			<div>
+				<label for="">Username</label>
+				<input class="border" type="text" name="username" id="" />
+			</div>
+			<div class="items-center gap-3">
+				<label for="">Mật khẩu</label>
+				<input class="border" type="password" name="password" />
+			</div>
+			<div class="">
+				<label for="">Hình đại diện:</label>
+				<input type="file" name="img" id="" />
+			</div>
+			<input
+				class="border rounded-lg w-fit px-5 py-2 hover:opacity-80 transition-all bg-blue-600 text-white mx-auto mt-3"
+				type="submit"
+				value="Submit"
+			/>
+		</form>
+	</body>
+</html>
